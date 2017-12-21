@@ -1,0 +1,27 @@
+{
+  "name": "electron-salesforce-oauth2-example",
+  "description": "electron app example using OAuth2 PKCE (RFC7636), without client secret",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "babel src -d lib",
+    "start": "electron lib/main.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "babel-polyfill": "^6.26.0",
+    "base64-url": "^2.0.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "electron": "^1.7.9",
+    "electron-packager": "^9.1.0",
+    "electron-rebuild": "^1.6.0"
+  }
+}
